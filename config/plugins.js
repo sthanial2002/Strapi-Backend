@@ -13,6 +13,7 @@ module.exports = ({ env }) => ({
           delete: {},
         },
       },
-    },
+  }, 
+  
     // ...
   });
