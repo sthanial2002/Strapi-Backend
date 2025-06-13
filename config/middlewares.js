@@ -15,7 +15,17 @@ module.exports = [
       },
     },
   },
-  'strapi::cors',
+  {
+    name: 'strapi::cors',
+    config: {
+      origin: [
+        'http://localhost:1337',
+        'https://nxt-js-frontend-5nho.vercel.app',
+        'https://strapi-backend-zx9c.onrender.com' // <-- ajoute ici si frontend aussi sur Render
+      ],
+      credentials: true,
+    },
+  },
   'strapi::poweredBy',
   'strapi::query',
   'strapi::body',
