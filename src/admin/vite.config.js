@@ -1,3 +1,4 @@
+// @ts-ignore
 const { mergeConfig } = require('vite');
 
 module.exports = (config) => {
@@ -7,6 +8,9 @@ module.exports = (config) => {
       alias: {
         '@': '/src',
       },
+    },
+    server: {
+      allowedHosts: true
     },
   });
 };
