@@ -21,7 +21,7 @@ module.exports = [
       origin: [
         'http://localhost:1337',
         'https://nxt-js-frontend-5nho.vercel.app',
-        'https://strapi-backend-zx9c.onrender.com' // <-- ajoute ici si frontend aussi sur Render
+        'https://strapi-backend-zx9c.onrender.com' 
       ],
       credentials: true,
     },
